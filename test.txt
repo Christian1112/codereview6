@@ -1,1 +1,29 @@
-hallo
+//initialize git in folder
+1) git init
+
+//add remote repository
+2) git remote add origin [link]
+
+//add files to git
+3) git add .
+
+//commit files with commit message
+4) git commit -m "[message]"
+
+//push files to git repository
+5) git push origin master
+
+// PULL files to local folder
+1) git pull origin master
+
+//clone folder
+git clone [link]
+
+//check repository
+git remote -v
+
+// reset to earlier version of file
+git reset --hard [commitID]
+
+//check for changes
+git status
